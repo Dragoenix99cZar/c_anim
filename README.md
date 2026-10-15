@@ -1,6 +1,10 @@
 # c_anim
 > High-Performance Procedural Animation Engine in C
 
+## Demo
+ 
+<img src="demo.gif" width=512>
+
 A high-performance, pixel-level procedural graphics and fractal renderer written in raw C. This engine manipulates an uncompressed **RGBA framebuffer** using multi-pass trigonometric fields, domain warping, and escape-time fractal algorithms. 
 
 Designed for **zero-copy interoperability**, the engine compiles into a native, multithreaded command-line pipeline (leveraging **OpenMP** and **SIMD vectorization** for streaming **2.5K/4K video at 60FPS**) or targets **WebAssembly (Wasm)** for high-performance in-browser rendering.
@@ -77,8 +81,3 @@ cmd /c "streamerp.exe 2000 | ffmpeg -y -f rawvideo -pix_fmt rgb24 -video_size 25
 
 ## 📜 License
 This project is open-source and available under the GNU GENERAL PUBLIC LICENSE Version 3.
-
-
-## Demo
- 
-<img src="demo.gif" width=512>
