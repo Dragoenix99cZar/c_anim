@@ -81,8 +81,4 @@ This project is open-source and available under the GNU GENERAL PUBLIC LICENSE V
 
 ## Demo
  
-<!-- <img src="demo.gif" width=512> -->
-
-<video src="./demo.webm" width="512" muted autoplay loop playsinline>
-  Your browser does not support the video tag.
-</video>
+<img src="demo.gif" width=512>
